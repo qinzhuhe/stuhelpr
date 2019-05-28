@@ -127,7 +127,7 @@ exports.bf=(classid,req,res)=>{
 //电话信息
 
 exports.pinfo=(classid,req,res)=>{
-		query("select stuId,stuName,stuPhone,chamBer from sh_stuinfo  where classid='"+classid+"' ",function(err,rows){
+		query("select  学号 as stuId, 姓名 as stuName, 联系电话 as stuPhone from "+classid+"",function(err,rows){
 					if(err){
 			 			return res.status(200).json({err_code:500 });
 					}else{
