@@ -29,16 +29,16 @@ $(function(){
         <td id="sw">下午</td>
       </tr>
       <tr>
-        <td><p>课程:${course.name1}</p><p>老师:${course.teacher1}</p><p>上课地点:${course.classplace1}[1-2节]</p></td>
-        <td><p>课程:${course.name4}</p><p>老师:${course.teacher4} </p><p>上课地点:${course.classplace4}[6-7节]</p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[1-2节]</strong></p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[6-7节]</strong></p></td>
       </tr>
       <tr>
-        <td><p>课程:${course.name2}</p><p>老师:${course.teacher2} </p><p>上课地点:${course.classplace2}[3-4节]</td>
-        <td><p>课程:${course.name5}</p><p>老师:${course.teacher5}  </p><p>上课地点:${course.classplace5}[8-9节]</p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[3-4节]</strong></p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[8-9节]</strong></p></td>
       </tr>
       <tr>
-        <td><p>课程:${course.name3}</p><p>老师:${course.teacher3} </p><p>上课地点:${course.classplace3}[第5节]</p></td>
-        <td><p>课程:${course.name6}</p><p>老师:${course.teacher6}  </p><p>上课地点:${course.classplace6}[第10节]</p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[第5节]</strong></p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[第十节]</strong></p></td>
       </tr>
       </table>`;
       $('.timetable').html(str);
@@ -53,8 +53,8 @@ $(function(){
 
 
 
-	
-	
+
+
   mui.toast("欢迎来到学生小助手!");
 
 
@@ -66,5 +66,5 @@ $(function(){
 },300)
 
 
-  
+
 })
