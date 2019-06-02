@@ -30,15 +30,15 @@ $(function(){
       </tr>
       <tr>
         <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[1-2节]</strong></p></td>
-        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[6-7节]</strong></p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace4}[6-7节]</strong></p></td>
       </tr>
       <tr>
-        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[3-4节]</strong></p></td>
-        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[8-9节]</strong></p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace2}[3-4节]</strong></p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace5}[8-9节]</strong></p></td>
       </tr>
       <tr>
-        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[第5节]</strong></p></td>
-        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace1}[第十节]</strong></p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace3}[第5节]</strong></p></td>
+        <td><p><font color="#7B7B7B">课程:</font><strong>${course.name1}</strong></p><p><font color="#7B7B7B">老师:</font><strong>${course.teacher1}</strong></p><p><font color="#7B7B7B">上课地点:</font><strong>${course.classplace6}[第十节]</strong></p></td>
       </tr>
       </table>`;
       $('.timetable').html(str);
